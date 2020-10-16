@@ -8,12 +8,14 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800&display=swap' },
     ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    '~assets/styles.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
